@@ -1,0 +1,581 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container980{
+    max-width: 980px;
+    margin: 0 auto;
+}
+header{
+    background: #040F28;
+    padding: 56px 0 0;
+    position: relative;
+    z-index: 100;
+}
+header::before{
+    content: '';
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    background: url("../images/header/line-top.png") center/cover no-repeat;
+}
+header::after{
+    content: '';
+    position: absolute;
+    height: 700px;
+    width: 800px;
+    top: 350px;
+    right: 0;
+    z-index: 10;
+    background: url("../images/header/line-bottom.png") center/cover no-repeat;
+}
+main{
+    position: relative;
+    z-index: 100;
+    background: white;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 100;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.header-links{
+    display: flex;
+    column-gap: 50px;
+}
+
+.header-link{
+    font-family: 'Ubuntu',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #646464;
+    transition: 0.5s;
+}
+.header-link:hover{
+    color: white;
+    transition: 0.5s;
+}
+.header-title{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #C4C4C4;
+}
+.header-btn{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: transparent;
+    padding: 16px 32px;
+    border: 2px solid #C4C4C4;
+    border-radius: 87px;
+    cursor: pointer;
+    margin-left: 50px;
+    transition: 0.5s;
+}
+.header-btn:hover{
+    background: #FC3867;
+    border: 1px solid #FC3867;
+    transition: 0.5s;
+
+}
+.akhi-content{
+    display: flex;
+    align-items: center;
+    column-gap: 115px;
+}
+.akhi-right{
+    position: relative;
+    z-index: 100;
+    padding-right:40px ;
+}
+.akhi-left-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 74px;
+    text-transform: capitalize;
+    color: #C4C4C4;
+}
+.akhi-left-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #646464;
+    margin: 20px 0 40px;
+}
+.akhi-left-btn{
+
+    padding: 16px 40px;
+    background: #FC3867;
+    border-radius: 87px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.akhi-left-btn:hover{
+    background: white;
+    transition: 0.5s;
+    border: 1px solid #070707;
+    color: black;
+}
+.numbers-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.numbers{
+    padding: 90px 0 85px;
+}
+.number{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #070707;
+}
+.numbers-card, .numbers-card2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.numbers-card::after{
+    content: '';
+    width: 137px;
+    border: 1px solid #D8D8D8;
+    top: 90px;
+    right: 0;
+    position: absolute;
+    left: 250px;
+    transform: rotate(90deg);
+
+}
+.card-title{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+    color: #070707;
+    margin: 16px 0 8px;
+}
+.card-text{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.005em;
+    color: #C4C4C4;
+}
+.benefits{
+    background: #040F28;
+    padding: 150px 0 0;
+}
+.benefits-top{
+    display: flex;
+    justify-content: space-between;
+}
+.benefits-top-right{
+    display: flex;
+    align-items: flex-end;
+}
+.benefits-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.benefits-subtitle{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: -0.5px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.benefits-right-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+.benefits-cards{
+    display: flex;
+    padding: 56px 0 118px;
+    justify-content: space-between;
+}
+.benefits-card , .benefits-card2{
+    width: 307px;
+    position: relative;
+    padding-left: 64px;
+}
+.benefits-svg{
+    position: absolute;
+    left: 0;
+
+}
+.benefits-card::after{
+    content: '';
+    width: 100px;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+    left: 300px;
+    top: 90px   ;
+    position: absolute;
+}
+.benefits-card-title{
+    font-family: 'Ubuntu',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin: 10px 0 9px;
+}
+.benefits-card-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+.services{
+    background: #040F28;
+    padding: 0 0 110px;
+}
+.services-cards{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 78px;
+}
+.services-card{
+    width: calc(50% - 20px);
+    background: #FFFFFF;
+    border-radius: 12px;
+    border: none;
+    padding: 32px 90px 38px 128px;
+    position: relative;
+}
+.services-card-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+.services-card-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #272727;
+    margin-top: 24px;
+}
+.services-card-svg{
+    position: absolute;
+    left: 32px;
+    top: 24px;
+}
+
+.services-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.services-subtitle{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 29px 0 72px;
+}
+.creative{
+    background: #040F28;
+    padding: 0 0 110px;
+}
+.creative-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.creative-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #999999;
+    margin: 18px 0 56px;
+}
+.creative-cards{
+    display: flex;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 24px;
+}
+.creative-card{
+    display: flex;
+    width: calc(50% - 12px);
+}
+.price{
+    background: #040F28;
+    padding: 0 0 172px;
+}
+.price-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.price-subtitle{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 16px 0 71px;
+}
+.price-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.price-card{
+    width: 300px;
+    height: 450px;
+    background: white;
+    border-radius: 12px;
+    padding: 52px 37px 48px 24px;
+}
+.price-card-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+.price-cost{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+    margin: 21px 0 24px;
+}
+.price-span{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.price-card-subtitle, .price-card-subtitle2{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #272727;
+    margin-top: 16px;
+    position: relative;
+    left: 15px;
+}
+.price-card-subtitle2{
+    left: 0;
+}
+.price-card-btn1 , .price-card-btn2 , .price-card-btn3{
+
+    padding: 12px 46px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #272727;
+    border: 1px solid #272727;
+    border-radius: 50px;
+    margin: 93px 0 0 41px;
+    cursor: pointer;
+    background: transparent;
+    transition: 0.5s;
+}
+.price-card-btn1:hover{
+    background: #FC3867;
+    border: none;
+    color: white;
+    transition: 0.5s;
+}
+.price-card-btn2{
+    margin-top: 61px;
+    background: #FC3867;
+    color: white;
+    border: none;
+
+}
+.price-card-btn2:hover{
+    background: transparent;
+    border: 1px solid #272727;
+    color: #070707;
+    transition: 0.5s;
+}
+.price-card-btn3{
+    margin-top: 29px;
+}
+.price-card-btn3:hover{
+    background: #FC3867;
+    border: none;
+    color: white;
+    transition: 0.5s;
+}
+.subscribe{
+    padding: 40px 0 40px;
+}
+.subscribe-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #C4C4C4;
+    text-align: center;
+}
+.subscribe-subtitle{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #212226;
+    margin: 12px 0 27px;
+    text-align: center;
+}
+.subscribe-btn{
+    padding: 16px 40px;
+    border: none;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #FC3867;
+    border-radius: 87px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.subscribe-btn:hover{
+    background: white;
+    transition: 0.5s;
+    border: 1px solid #070707;
+    color: black;
+}
+.subscribe-content{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background: #070707;
+}
+.footer-bottom{
+    padding: 32px 0 34px;
+}
+.footer-b-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(196, 196, 196, 0.5);
+    text-align: center;
+}
+.footer-cards{
+    display: flex;
+    column-gap: 85px;
+    border-bottom:1px solid rgba(196, 196, 196, 0.5) ;
+}
+.footer-card1{
+    width:318px;
+    height: 118px;
+    margin: 40px 0 60px;
+}
+.footer-card-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.footer-card-text{
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #C4C4C4;
+    margin: 16px 0 24px;
+}
+.img-footer{
+font-size: 20px;
+    color: white;
+    transition: 0.5s;
+}
+.img-footer:hover{
+    font-size: 30px;
+    color: #FC3867;
+    transition: 0.5s;
+}
+.footer-card-title2{
+    font-family: 'Ubuntu',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: ;
+}
+.footer-card2{
+    margin: 40px 0 60px;
+}

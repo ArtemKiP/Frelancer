@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f97aed26-a5bf-42bd-953e-7fe13c8541b7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Ir64Kx4EHZQGNHHS3CTs2HHgcA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images/header" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\ItRun 1600\Frelancer\src\images\header" />
+      <recent name="G:\ItRun 1600\Frelancer\font" />
+      <recent name="G:\ItRun 1600\Frelancer\src\images\creative" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\ItRun 1600\Frelancer\src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f97aed26-a5bf-42bd-953e-7fe13c8541b7" name="Default Changelist" comment="" />
+      <created>1670927164032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670927164032</updated>
+      <workItem from="1670927172222" duration="5380000" />
+      <workItem from="1670944671499" duration="9012000" />
+      <workItem from="1671012306665" duration="1345000" />
+      <workItem from="1671023510036" duration="2000000" />
+      <workItem from="1671099106629" duration="28000" />
+      <workItem from="1671099432879" duration="103000" />
+      <workItem from="1671550504327" duration="121000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
